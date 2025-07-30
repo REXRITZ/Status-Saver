@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_recent_status"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/recent_status" />
+        <item
+            android:id="@+id/navigation_direct_chat"
+            android:icon="@drawable/send"
+            android:title="@string/direct_chat" />
+        <item
+            android:id="@+id/navigation_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/settings"/>
+    </group>
+</menu>

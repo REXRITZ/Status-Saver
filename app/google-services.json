@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "306258590085",
+    "project_id": "status-saver-for-whatsap-911dc",
+    "storage_bucket": "status-saver-for-whatsap-911dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306258590085:android:97fc8371c3ad4409b02cec",
+        "android_client_info": {
+          "package_name": "com.moistlabs.statussaver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306258590085-5rc2h5e6q9taf3j8nc8p97pqtlvie5aq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moistlabs.statussaver",
+            "certificate_hash": "59390e920fa9370571e23f4fe60537ac91cc61dc"
+          }
+        },
+        {
+          "client_id": "306258590085-e8bs9u9qpvprucf3b9hqfog1b2mfstho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moistlabs.statussaver",
+            "certificate_hash": "f291f91edeff71da0398927454092873b4f508bc"
+          }
+        },
+        {
+          "client_id": "306258590085-h2jlo2459ksg9ip8mafqse707p51dhvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQCewHHaqZU50pdtAXuEsacOaiCHx4FSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306258590085-h2jlo2459ksg9ip8mafqse707p51dhvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2502221940892901~9459135894"
+    }
+  ],
+  "configuration_version": "1"
+}

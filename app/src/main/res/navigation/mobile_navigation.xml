@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_recent_status">
+
+    <fragment
+        android:id="@+id/navigation_recent_status"
+        android:name="com.moistlabs.statussaver.ui.recent_status.RecentStatusFragment"
+        android:label="@string/recent_status"
+        tools:layout="@layout/fragment_recent_status" >
+        <action
+            android:id="@+id/action_navigation_recentStatus_to_permissionRequestFragment"
+            app:destination="@id/permissionRequestFragment" />
+        <action
+            android:id="@+id/action_navigation_recent_status_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/permissionRequestFragment"
+        android:name="com.moistlabs.statussaver.ui.PermissionRequestFragment"
+        android:label="Permission Request" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.moistlabs.statussaver.ui.recent_status.gallery.GalleryFragment"
+        android:label="@string/gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <argument
+            android:name="startPos"
+            app:argType="integer"
+            android:defaultValue="-1" />
+        <argument
+            android:name="from_saved_fragment"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_direct_chat"
+        android:name="com.moistlabs.statussaver.ui.direct_chat.DirectChatFragment"
+        android:label="@string/direct_chat"
+        tools:layout="@layout/fragment_direct_chat" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.moistlabs.statussaver.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
